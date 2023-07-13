@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First CSS</title>
+    <!-- important points
+    1. class selector -> can be acces in style while calling dot(.)
+    2. id selector -> can be acces in style while calling hashTag(#)
+    3. element selector -> can be acces in style while calling Html Tag Name (eg-> h1, p, footer etc)
+    4. group selector -> we can grouping multiple tag in one (eg-> p,h1,footer{}) -->
+    <!-- Internal CSS -->
+    <style>
+      h1 {
+        background-color: aquamarine;
+      }
+      footer {
+        color: coral;
+      }
+      p {
+        color: teal;
+        /* !important ignore Inline css properties (if bg color given then it will ignore) */
+        background-color: whitesmoke !important;
+      }
+      p,
+      footer {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- InLine CSS -->
+    <h1 style="color: royalblue">Justin Roy</h1>
+    <p class="classPara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere assumenda
+      velit adipisci reiciendis autem? Fuga facilis rerum cumque eius magni
+      repellendus ratione mollitia quaerat nisi veniam, fugit, animi debitis
+      voluptatum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere assumenda
+      velit adipisci reiciendis autem? Fuga facilis rerum cumque eius magni
+      repellendus ratione mollitia quaerat nisi veniam, fugit, animi debitis
+      voluptatum.
+    </p>
+    <p style="background-color: orchid">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere assumenda
+      velit adipisci reiciendis autem? Fuga facilis rerum cumque eius magni
+      repellendus ratione mollitia quaerat nisi veniam, fugit, animi debitis
+      voluptatum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere assumenda
+      velit adipisci reiciendis autem? Fuga facilis rerum cumque eius magni
+      repellendus ratione mollitia quaerat nisi veniam, fugit, animi debitis
+      voluptatum.
+    </p>
+    <footer>Hello I'm Footer</footer>
+  </body>
+</html>

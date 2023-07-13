@@ -1,0 +1,27 @@
+#bold_tag {
+  background-color: green;
+}
+#strong_tag {
+  background-color: yellow;
+}
+#underline_tag {
+  background-color: yellowgreen;
+}
+#monospaced_tag {
+  background-color: orange;
+}
+#subscript_tag {
+  background-color: rebeccapurple;
+}
+#superscript_tag {
+  background-color: aqua;
+}
+
+body {
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}

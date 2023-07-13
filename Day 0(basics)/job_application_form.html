@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <h1>Job Application</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    <br />
+    <br />
+    <label for="email">Email:</label>
+    <input type="email" id="email" />
+    <br />
+    <br />
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" />
+    <br />
+    <br />
+    <label for="resume">Resume:</label>
+    <input type="file" name="file" id="resume" />
+    <br />
+    <br />
+    <label for="exp">Year of Experiance:</label>
+    <input type="number" name="count" id="exp" max="10" min="0" />
+    <br />
+    <br />
+
+    <fieldset>
+      <legend>Skills</legend>
+      <label for="checkbox1">HTML</label>
+      <input type="checkbox" name="checkbox" id="checkbox1" />
+      <label for="checkbox2">CSS</label>
+      <input type="checkbox" name="checkbox" id="checkbox2" />
+      <label for="checkbox3">JAVASCRIPT</label>
+      <input type="checkbox" name="checkbox" id="checkbox3" />
+    </fieldset>
+
+    <br />
+    <br />
+    <label for="edu">Highest Education:</label>
+    <select name="education" id="edu">
+      <option value="matric">10th</option>
+      <option value="inter">12th</option>
+      <option value="grad">Graduation</option>
+      <option value="post">Post-Graduation</option>
+    </select>
+
+    <br />
+    <br />
+    <fieldset>
+      <legend>Availabilty</legend>
+      <br />
+      <label for="radio1">Full Time</label>
+      <input type="radio" name="radio" id="radio1" />
+      <label for="radio2">Part Time</label>
+      <input type="radio" name="radio" id="radio2" />
+    </fieldset>
+    <br />
+    <br />
+    <label for="comment">Additional Comment:</label>
+    <br />
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    <button>Submit Application</button>
+  </body>
+</html>

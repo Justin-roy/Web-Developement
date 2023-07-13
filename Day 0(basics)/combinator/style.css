@@ -1,0 +1,41 @@
+center {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* descendent css */
+#descd {
+  border: 2px solid;
+  padding: 12px;
+}
+#descd p {
+  border: 2px solid blue;
+  padding: 12px;
+}
+/* child css */
+#child {
+  border: 2px solid;
+  padding: 12px;
+}
+#child > p {
+  border: 2px solid blue;
+  padding: 12px;
+}
+/* general sibling css */
+#general_sibling {
+  border: 2px solid;
+  padding: 12px;
+}
+#general_sibling ~ p {
+  border: 2px solid blue;
+  padding: 12px;
+}
+/* adjacent sibling css */
+#adjacent_sibling {
+  border: 2px solid;
+  padding: 12px;
+}
+#adjacent_sibling + p {
+  border: 2px solid blue;
+  padding: 12px;
+}

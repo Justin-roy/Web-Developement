@@ -1,0 +1,5 @@
+Combinators Notes
+      - descendent (single space)
+    > - child
+    ~ - general sibling
+    + - adjacent sibling 
