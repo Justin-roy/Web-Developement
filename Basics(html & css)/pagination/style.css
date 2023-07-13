@@ -1,0 +1,25 @@
+h1::first-letter {
+  font-size: 100px;
+  font-weight: 600;
+  color: teal;
+}
+
+#pagination {
+  text-align: center;
+}
+#pagination a {
+  color: black;
+  text-decoration: none;
+  padding: 16px 22px;
+  display: inline-block;
+}
+#pagination a.active {
+  background-color: antiquewhite;
+  border-radius: 18px;
+  font-weight: 600px;
+}
+#pagination a:hover:not(.active) {
+  background-color: hwb(157 68% 0%);
+  border-radius: 18px;
+  font-weight: 600px;
+}
