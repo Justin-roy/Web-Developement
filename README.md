@@ -3,7 +3,9 @@
 This repo contains my learning series of becoming mern stack developement in web.
 
 
-<img width = 50%, height = 200px src = "https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"> </img>
+
+  <img width = 65%, height = 250px src = "https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"> </img>
+
 
 
 ## Authors
