@@ -1,0 +1,35 @@
+h1::first-letter {
+  font-size: 60px;
+  color: aquamarine;
+}
+p::first-line {
+  font-weight: 600;
+  background-color: beige;
+}
+p::selection {
+  background-color: cadetblue;
+  color: white;
+}
+#test1::after {
+  content: "🎃";
+}
+#test2::after {
+  content: "👌";
+}
+#test3::after {
+  content: "❤️";
+}
+#test4::after {
+  content: "😁";
+}
+#test5::after {
+  content: "🍔";
+}
+#list_items li::marker {
+  content: "🚀";
+  font-size: 1.1em;
+}
+li {
+  margin-left: 20px;
+  font-size: xx-large;
+}
