@@ -2,6 +2,10 @@
 
 This repo contains my learning series of becoming mern stack developement in web.
 
+
+<img width = 50%, height = 200px src = "https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"> </img>
+
+
 ## Authors
 
 - [@Justin Roy](https://www.linkedin.com/in/justin-roy-4817551ba/)
