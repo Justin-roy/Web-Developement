@@ -1,6 +1,6 @@
 ## Recipe Food Website UI
 
-<img src = "https://github.com/Justin-roy/Web-Developement/blob/main/projects/recipe_food/ss/ss.jpg"> </img>
+<img src = "https://firebasestorage.googleapis.com/v0/b/instagram-clone-cf306.appspot.com/o/github_ss%2FScreenshot%202023-07-06%20183959.jpg?alt=media&token=aa25a016-4298-46fa-bfd4-202963de3546"> </img>
 
 ## Authors
 
