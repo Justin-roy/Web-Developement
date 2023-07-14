@@ -1,6 +1,6 @@
 ## Recipe Food Website UI
 
-<img width = 65%, height = 250px src = "https://github.com/Justin-roy/Web-Developement/blob/main/projects/recipe_food/ss/ss.jpg"> </img>
+<img src = "https://github.com/Justin-roy/Web-Developement/blob/main/projects/recipe_food/ss/ss.jpg"> </img>
 
 ## Authors
 
