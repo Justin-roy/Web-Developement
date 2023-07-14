@@ -3,8 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.root {
-  --animateLiner: all 0.3s linear 0s;
+:root {
+  --animateLinear: all 0.3s linear 0s;
 }
 body {
   background-color: #a9c9ff;
@@ -26,7 +26,7 @@ body {
   font-weight: 600;
 }
 #logo:hover {
-  transform: --animateLiner;
+  transition: var(--animateLinear);
   transform: scale(0.9);
 }
 #logo::first-letter {
@@ -37,7 +37,7 @@ ul {
   text-decoration: none;
 }
 a:hover {
-  transform: --animateLiner;
+  transition: var(--animateLinear);
   transform: scale(0.9);
 }
 a {
@@ -89,7 +89,9 @@ a {
 }
 
 #food_img:hover {
+  transition: var(--animateLinear);
   transform: scale(1.1);
+
 }
 #food_img .overlay {
   position: absolute;
@@ -102,7 +104,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: --animateLiner;
   opacity: 0;
 }
 #food_img .overlay:hover {
