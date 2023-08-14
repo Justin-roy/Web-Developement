@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: teal;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5.5px;
+}
+header h1 {
+  letter-spacing: 6.5px;
+}
+
+.nav_bar {
+  margin-top: 22px;
+  background-color: black;
+  height: 45px;
+}
+
+aside {
+  width: 20%;
+  float: left;
+  padding: 14px;
+}
+section {
+  width: 40%;
+  float: left;
+  padding: 14px;
+}
+article {
+  width: 40%;
+  float: left;
+  padding: 14px;
+}
+footer {
+  display: block;
+  clear: both;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 8px;
+}
+@media only screen and (max-width: 600px) {
+  aside {
+    width: 40%;
+  }
+  section {
+    width: 60%;
+  }
+  article {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}

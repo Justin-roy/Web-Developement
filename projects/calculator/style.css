@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cal-body {
+  background-color: #000000;
+  width: 400px;
+  height: 680px;
+  border-radius: 18px;
+}
+.cal-answer {
+  display: flex;
+  width: 400px;
+  height: 40%;
+  border-radius: 18px 18px 0 0;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.cal-answer h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: lighter;
+}
+.cal-answer h3 {
+  padding-top: 12px;
+  color: #e6e1e1a1;
+  font-size: 32px;
+  font-weight: 100;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+  max-width: 400px;
+  padding: 22px;
+  height: 60%;
+}
+.grid-item {
+  color: white;
+  background-color: #191919;
+  border-radius: 12px;
+  padding: 18px;
+  font-size: 19px;
+  text-align: center;
+}
+#grey-box {
+  background-color: #272727;
+}
+#grey-box-ac {
+  background-color: #272727;
+  color: #d8802e;
+}
+#grey-box-back {
+  background-color: #272727;
+  color: #d8802e;
+}
+#orange-box {
+  background-color: #d8802e;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .btn {
+        width: 80px;
+        height: 80px;
+        background-color: rgba(0, 0, 255, 0.671);
+        border-radius: 100%;
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+      }
+      .btn:hover {
+        background-color: rgb(10, 133, 92);
+        transition: 0.5s linear 0s;
+      }
+      #view_part {
+        margin: 22px;
+        font-size: 55px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" id="minus" class="btn">Minus</button>
+    <label id="view_part">0</label><br />
+    <button type="button" id="add" class="btn">Add</button>
+    <script src="script.js"></script>
+  </body>
+</html>
