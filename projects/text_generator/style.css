@@ -1,0 +1,56 @@
+*{
+  margin: 0%;
+  padding: 0%;  
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.container{
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+    padding: 100px 50px;
+   
+}
+
+.container h1{
+    font-size: 45px;
+    font-weight:600;
+    padding-bottom: 28px;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container input{
+    color: black;
+    background-color: white;
+    padding: 22px;
+    width: 50%;
+    border: 1px rgba(128, 128, 128, 0.575) solid;
+    border-radius: 8px;
+}
+.container button{
+    margin-left: 12px;
+    color: black;
+    background-color: white;
+    padding: 22px;
+    border: 1px rgba(128, 128, 128, 0.575) solid;
+    border-radius: 8px;
+}
+.container button:hover{
+    background-color: rgba(0, 0, 255, 0.695);
+    transition: 1s ease-in ;
+}
+.paras {
+    background-color: rgb(238, 238, 238);
+    color: rgb(21, 21, 21);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: start;
+    line-height: 25px;
+    overflow-x: auto;
+  }
